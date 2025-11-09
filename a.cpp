@@ -15,6 +15,5 @@ int main() {
     f >> n;
     for(int i=1;i<=n;i++)f >> a[i], ans+=a[i];
     sort(a+1, a+n+1);
-    g << ans << '\n';
     for(int i=1;i<=n;i++)g << a[i] << " ";
 }
